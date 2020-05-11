@@ -48,7 +48,7 @@ class EntryModel extends Model
      *
      * @var bool
      */
-    public $incrementing = false;
+    public bool $incrementing = false;
 
     /**
      * Scope the query for the given query options.
